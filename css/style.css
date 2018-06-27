@@ -1,0 +1,62 @@
+body {
+    background: url("../img/Gangut_battleship.jpg") repeat-y;
+    margin: 0;
+   }
+
+/* */
+/* body is making a background image and takes away the margin*/
+h1 {
+    background: red;
+    text-align: center;
+    margin: 0;
+}
+
+.center_objects{
+   text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+   width: 80%; 
+}
+.my_table{
+    width: 90%;
+    margin: 30px auto;
+    background: tan; 
+ }
+
+ .my_table th, .my_table td {
+     width: 8%;
+ } 
+
+ .my_table tr td {
+    border: 1px solid black;
+    padding: 0px;
+} 
+
+.list_pic {
+    padding-top: 2rem;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+@media (max-width: 520px) {
+body{
+    background: #000 !important;
+}
+h1 {
+    background: blue;
+    text-align: center;
+    margin: 0;
+}
+}
