@@ -41,7 +41,7 @@ h1 {
 td { background: tan; cursor: pointer; padding: 2px }
 
 .attempts_box {
-    background: blueviolet;
+    background: white;
 }
 
 .list_pic {
@@ -64,5 +64,8 @@ h1 {
     background: blue;
     text-align: center;
     margin: 0;
+}
+.list_pic {
+    padding-top: 0;
 }
 }
